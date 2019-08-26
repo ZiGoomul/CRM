@@ -22,7 +22,7 @@ function firingEngineer() {
     sheet.getRange(rowNum, 5).setValue("Уволен");
     sheet.getRange(rowNum, 1).setValue(nameEngineer + " 🛑");
 
-    delEngineerFillesPermission(nameEngineer, emailEngineer)
+    delEngineerFillesPermission(nameEngineer, emailEngineer);
 
   } else {
     Browser.msgBox("Кликните на ячейку с  инженером")

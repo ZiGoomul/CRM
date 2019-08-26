@@ -20,7 +20,7 @@ function firingEngineer() {
     sheet.getRange(rowNum, 7).setValue(date);
     sheet.getRange(rowNum, 4).copyTo(sheet.getRange(rowNum, 9));
     sheet.getRange(rowNum, 5).setValue("Уволен");
-    sheet.getRange(rowNum, 1).setValue(nameEngineer + " 🛑")
+    sheet.getRange(rowNum, 1).setValue(nameEngineer + " 🛑");
 
     delEngineerFillesPermission(nameEngineer, emailEngineer)
 

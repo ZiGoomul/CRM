@@ -5,5 +5,5 @@ function onOpen() {
       //menuEngineer.push(null); // line separator
   menuEngineer.push({name: "Следующий месяц", functionName: "nextMonth"});
   
-  ss.addMenu("Инженер", menuEngineer)
+  ss.addMenu("Инженер", menuEngineer);
 }

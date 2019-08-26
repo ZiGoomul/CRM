@@ -1,0 +1,15 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "sheets": {
+    "macros": [{
+      "menuName": "Новый макрос",
+      "functionName": "myFunction"
+    }, {
+      "menuName": "Новый макрос 1",
+      "functionName": "myFunction1"
+    }]
+  }
+}

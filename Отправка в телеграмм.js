@@ -18,7 +18,7 @@ function SendTelegram() {
 	var orderAdress = ss.getActiveSheet().getRange(rowNum, 4).getValue()
 	var orderInfo = ss.getActiveSheet().getRange(rowNum, 5).getValue()
 
-	var ipTokken = "492559927:AAG4ql6_sE9xt0OSE-HCQJNTfKc2VUfBfKQ";
+	var ipTokken = "Ваш токен";
 
 	var text = encodeURIComponent("🤑 " + orderName + "\n" + "☎️ " + "+" + orderPhone + "\n" + "🏠 " + orderAdress + "\n" + "ℹ️ " + orderInfo);
 	var url = "https://api.telegram.org/bot" + ipTokken + "/sendMessage?chat_id=" + chatID + "&text=" + text;

@@ -6,7 +6,7 @@ function findChatID() {
   var cellFirstName = sheet.getRange(3, 4)
   var cellLastName = sheet.getRange(4, 4)
 
-  var ipTokken = "492559927:AAG4ql6_sE9xt0OSE-HCQJNTfKc2VUfBfKQ"
+  var ipTokken = "Ваш токен"
   var url = "https://api.telegram.org/bot" + ipTokken + "/getUpdates"
   var openUrl = UrlFetchApp.fetch(url).getContentText();
 

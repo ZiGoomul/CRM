@@ -1,5 +1,5 @@
 function sheetNameMonth() {
-    var SpreadsheetID = "12TMUEQeRYaKFkiXpRcCIlxrKIgwnOADnGDg-GDjfCyI";
+    var SpreadsheetID = "ID таблици";
 	var ss = SpreadsheetApp.getActive();
 	var sheetName = ss.getActiveSheet().getName();
 	var year =new Date().getFullYear();
@@ -15,7 +15,7 @@ function sheetNameMonth() {
 						["Июнь",	 year + "-06-01", year + "-07-01"],
 						["Июль",	 year + "-07-01", year + "-08-01"],
 						["Август",	 year + "-08-01", year + "-09-01"],
-						["Сентябрь", year + "-09-01", year + "-10-01"],
+						["Сентябрь",     year + "-09-01", year + "-10-01"],
 						["Октябрь",	 year + "-10-01", year + "-11-01"],
 						["Ноябрь",	 year + "-11-01", year + "-12-01"],
 						["Декабрь",	 year + "-12-01", year + 1 +"-01-01"]

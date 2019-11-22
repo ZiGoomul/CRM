@@ -1,5 +1,5 @@
 function nextMonth() {
-    var SpreadsheetID = "1j6jIw2qtSGrhDJ-afEef44bOEw0zhI4mocfAFn2Sx1M";
+    var SpreadsheetID = "ID таблици";
 	var ss = SpreadsheetApp.getActive();
     var numSheet = ss.getNumSheets();
     var lastSheetName = ss.getSheets()[numSheet-1].activate().getName();
@@ -16,7 +16,7 @@ function nextMonth() {
 						["Июнь",	 year + "-06-01", year + "-07-01"],
 						["Июль",	 year + "-07-01", year + "-08-01"],
 						["Август",	 year + "-08-01", year + "-09-01"],
-						["Сентябрь", year + "-09-01", year + "-10-01"],
+						["Сентябрь",     year + "-09-01", year + "-10-01"],
 						["Октябрь",	 year + "-10-01", year + "-11-01"],
 						["Ноябрь",	 year + "-11-01", year + "-12-01"],
 						["Декабрь",	 year + "-12-01", year + 1 +"-01-01"]
